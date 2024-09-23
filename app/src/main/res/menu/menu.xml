@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+
+        />
+
+    <item android:id="@+id/item_profile"
+        android:title="profile"
+        android:icon="@drawable/baseline_person_24"
+
+        />
+
+    <item android:id="@+id/item_company"
+        android:title="Post Job"
+        android:icon="@drawable/baseline_add_24"
+
+        />
+
+    <item android:id="@+id/item_Applicants"
+        android:title="Applicants"
+        android:icon="@drawable/baseline_people_24"
+
+        />
+    <item android:id="@+id/item_logout"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"
+
+        />
+
+</menu>

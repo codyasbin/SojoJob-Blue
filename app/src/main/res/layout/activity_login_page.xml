@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Login_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center_horizontal">
+
+        <!-- Welcome Back Text -->
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+            android:layout_marginTop="32dp"/>
+
+        <!-- Subheading Text -->
+        <TextView
+            android:id="@+id/subheadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in to access your account and continue your job search."
+            android:textSize="14sp"
+            android:textColor="#CCA224"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Email Label -->
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="#1F1449"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:padding="16dp"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"
+            android:textColor="#1F1449"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Password Label -->
+
+        <!-- Password EditText with Eye Icon -->
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Password"
+            android:textStyle="bold"
+            android:textColor="#1F1449"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="14sp"
+                android:padding="16dp"
+                android:inputType="textPassword"
+                android:textColor="#1F1449"
+                android:layout_marginEnd="40dp"/>
+
+            <ImageView
+                android:id="@+id/togglePasswordVisibility"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/baseline_remove_red_eye_24"/>
+        </RelativeLayout>
+
+        <!-- Remember Me Checkbox and Forgot Password -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <CheckBox
+                android:id="@+id/rememberMeCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember me"
+
+                android:textColor="#050505"/>
+
+            <TextView
+                android:id="@+id/forgotPasswordTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:text="Forgot Password?"
+                android:textColor="#FFC107" />
+        </LinearLayout>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC107"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Sign in with Google Button -->
+        <Button
+            android:id="@+id/googleSignInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#19FFC107"
+            android:text="SIGN IN WITH GOOGLE"
+            android:textColor="#FFC107"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Sign Up Text -->
+        <TextView
+            android:id="@+id/signUpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="You don't have an account yet? Sign up"
+            android:textColor="#FFC107"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
