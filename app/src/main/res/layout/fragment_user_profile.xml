@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Edit Profile"
-                android:backgroundTint="#FFC107"
+                android:backgroundTint="#2196F3"
                 android:textColor="@android:color/white"
                 android:layout_marginTop="16dp"
                 android:padding="12dp" />
@@ -128,7 +128,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Save Profile"
-                android:backgroundTint="#FFC107"
+                android:backgroundTint="#2196F3"
                 android:textColor="@android:color/white"
                 android:padding="16dp"
                 android:layout_marginTop="24dp" />

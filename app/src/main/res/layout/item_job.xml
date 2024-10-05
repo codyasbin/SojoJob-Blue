@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
                 android:paddingTop="4dp"
-                android:textColor="@android:color/holo_green_light" />
+                android:textColor="#2196F3" />
 
             <TextView
                 android:id="@+id/job_timestamp"
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:text="Apply"
             android:textColor="@android:color/white"
-            android:backgroundTint="#62B365"
+            android:backgroundTint="#00BCD4"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="8dp"

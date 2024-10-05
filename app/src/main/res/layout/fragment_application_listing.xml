@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#CDF0E8D6"
+    android:background="#ADD7E9"
     android:padding="16dp">
 
     <TextView
@@ -14,7 +14,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:padding="6dp"
-        android:textColor="#FFC107"
+        android:textColor="#2196F3"
         />
 
     <!-- RecyclerView to display the list of applications -->

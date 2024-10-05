@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Select CV"
-            android:backgroundTint="#A37C7B77"
+            android:backgroundTint="#372196F3"
             android:textColor="@android:color/white"
             android:padding="12dp"
             android:layout_marginBottom="8dp" />
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apply"
-            android:backgroundTint="@android:color/holo_green_dark"
+            android:backgroundTint="#2196F3"
             android:textColor="@android:color/white"
             android:padding="12dp"
             android:layout_marginBottom="16dp" />

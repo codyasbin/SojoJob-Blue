@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Open CV"
-                android:backgroundTint="#FFC107"
+                android:backgroundTint="#2196F3"
                 android:textColor="@android:color/white"
                 android:layout_marginEnd="8dp"/>
 
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Download CV"
-                android:backgroundTint="@android:color/holo_green_dark"
+                android:backgroundTint="#00BCD4"
                 android:textColor="@android:color/white"
                 android:layout_marginStart="8dp"/>
         </LinearLayout>

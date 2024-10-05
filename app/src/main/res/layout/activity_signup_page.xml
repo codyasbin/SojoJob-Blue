@@ -25,7 +25,7 @@
             android:text="Create an Account"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="#FFC107"
+            android:textColor="#2196F3"
             android:layout_marginTop="32dp" />
 
         <!-- Subheading Text -->
@@ -39,7 +39,7 @@
             android:layout_marginBottom="24dp"
             android:gravity="center"
             android:text="Join us and explore new opportunities in your career. Create your account to get started!"
-            android:textColor="#CCA224"
+            android:textColor="#2196F3"
             android:textSize="14sp" />
 
         <TextView
@@ -133,7 +133,7 @@
             android:id="@+id/signUpButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FAFBBC00"
+            android:backgroundTint="#2196F3"
             android:text="SIGN UP"
             android:textColor="@color/white"
             android:textAllCaps="false"
@@ -149,7 +149,7 @@
             android:textStyle="bold"
             android:layout_height="wrap_content"
             android:text="You don't have an account yet? Sign in"
-            android:textColor="#FFC107"
+            android:textColor="#2196F3"
             android:layout_marginTop="16dp"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>

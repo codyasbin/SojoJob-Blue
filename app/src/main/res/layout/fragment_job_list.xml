@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CDF0E8D6"
+    android:background="#D3E2E9"
     android:orientation="vertical">
 
     <TextView
@@ -12,7 +12,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:padding="16dp"
-        android:textColor="#FFC107"
+        android:textColor="#2196F3"
         />
 
 
@@ -23,7 +23,7 @@
         android:padding="16dp"
         android:text="Available Jobs 🔥 "
         android:fontFamily="sans-serif-medium"
-        android:textColor="#FFC107"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         />
 
@@ -39,7 +39,7 @@
     <Button
         android:id="@+id/load_more_button"
         android:layout_width="match_parent"
-        android:backgroundTint="#FFC107"
+        android:backgroundTint="#2196F3"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:text="Load More"

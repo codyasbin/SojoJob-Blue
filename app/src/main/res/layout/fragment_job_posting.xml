@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#CDF0E8D6"
+    android:background="#D3E2E9"
     android:padding="16dp">
 
     <!-- Job Posting Form -->
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Post Job"
-        android:backgroundTint="#FFC107"
+        android:backgroundTint="#2196F3"
         android:layout_marginTop="16dp" />
 
     <TextView
@@ -63,7 +63,7 @@
         android:textSize="16sp"
         android:gravity="center"
         android:padding="6dp"
-        android:textColor="#FFC107"
+        android:textColor="#2196F3"
         />
 
     <!-- Job List -->
